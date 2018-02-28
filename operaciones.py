@@ -8,3 +8,5 @@ Created on Wed Feb 28 17:37:34 2018
 
 def suma(a,b):
     return a+b
+
+multiplica = lambda x,y: x*y

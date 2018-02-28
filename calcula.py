@@ -12,7 +12,10 @@ import operaciones
 while True: 
     a = int(input('Valor a: '))
     b = int(input('Valor b: '))
-    print('Suma es: ',operaciones.suma(a,b))
+    if input('Deseas sumas(s) o miltiplicar(m)') == 's':
+        print('Suma es: ',operaciones.suma(a,b))
+    else: 
+        print('El producto es: ',operaciones.multiplica(a,b))
     if input('Deseas salir s/n') == 's':
         break
     
