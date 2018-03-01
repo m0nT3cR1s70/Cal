@@ -10,3 +10,5 @@ def suma(a,b):
     return a+b
 
 multiplica = lambda x,y: x*y
+
+divide = lambda x,y: x/y
